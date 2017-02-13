@@ -1,6 +1,8 @@
 aws4
 ----
 
+This fork fixes and issue with escaping in a browser. 
+
 [![Build Status](https://secure.travis-ci.org/mhart/aws4.png?branch=master)](http://travis-ci.org/mhart/aws4)
 
 A small utility to sign vanilla node.js http(s) request options using Amazon's
