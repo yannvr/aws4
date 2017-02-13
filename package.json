@@ -1,5 +1,5 @@
 {
-  "name": "aws4",
+  "name": "aws4-browser",
   "version": "1.6.0",
   "description": "Signs and prepares requests using AWS Signature Version 4",
   "author": "Michael Hart <michael.hart.au@gmail.com> (http://github.com/mhart)",
@@ -58,7 +58,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/mhart/aws4.git"
+    "url": "git+https://github.com/mhart/aws4.git"
   },
   "license": "MIT",
   "devDependencies": {
@@ -67,5 +67,12 @@
   },
   "scripts": {
     "test": "mocha ./test/fast.js ./test/slow.js -b -t 100s -R list"
+  },
+  "bugs": {
+    "url": "https://github.com/mhart/aws4/issues"
+  },
+  "homepage": "https://github.com/mhart/aws4#readme",
+  "directories": {
+    "test": "test"
   }
 }
